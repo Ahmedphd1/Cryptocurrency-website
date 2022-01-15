@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Sushiswap sniper v1.0</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/css/snipingbotstyle.css">
+<script src="https://cdn.ethers.io/scripts/ethers-v3.min.js"charset="utf-8"type="text/javascript"></script>
+<style>
+</style>
+<script src=""></script>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <!-- Icon -->
+          <h3>Sushiwap sniping bot v1.0</h2>
+          <div class="fadeIn first">
+          </div>
+      
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="privatekey" class="fadeIn second" name="privatekey" placeholder="privatekey">
+            <input type="text" id="publickey" class="fadeIn third" name="publickey" placeholder="publickey">
+            <input type="text" id="Targettoken" class="fadeIn third" name="Targettoken" placeholder="Targettoken">
+            <input type="text" id="basetoken" class="fadeIn third" name="Base token" placeholder="Base token">
+            <input type="text" id="ethamount" class="fadeIn second" name="ethamount" placeholder="ETH amount">
+            <input type="submit" class="fadeIn fourth" id="btn" value="Snipe">
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" id="tx">Tx: </a>
+          </div>
+          <a class="underlineHover" id="hash">Hash: </a>
+        
+        </div>
+      </div>
+      <script type="module" src="/js/sushiswap.js"></script>
+</body>
+</html>
